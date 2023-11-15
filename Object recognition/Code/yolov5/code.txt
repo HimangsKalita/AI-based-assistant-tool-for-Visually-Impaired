@@ -1,0 +1,5 @@
+cd D:\Major Project\Object Detection\Dataset\Yolo\yolov5
+
+python ./detect.py  --weights runs/train/exp/weights/best.pt --source 0
+
+python ./detect.py  --weights runs/train/exp/weights/best-fp16.tflite --data data/datas.yaml --source 0
